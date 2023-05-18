@@ -1,0 +1,31 @@
+.action-menu a:hover {
+  background: #ddd;
+}
+
+.action-menu div:hover {
+  background: #ddd;
+}
+
+.hover-visible-item {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hover-visible:hover .hover-visible-item {
+  opacity: 1;
+  visibility: visible;
+}
+
+.center-xy {
+  align-items: center;
+  justify-content: center;
+}
+
+.squared {
+  aspect-ratio: 1/1;
+}
+
+.btn-see-more {
+  width: 32px;
+  aspect-ratio: 1/1;
+}
