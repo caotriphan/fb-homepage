@@ -1,0 +1,17 @@
+.action-menu a:hover {
+  background: #ddd;
+}
+
+.action-menu div:hover {
+  background: #ddd;
+}
+
+.hover-visible-item {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hover-visible:hover .hover-visible-item {
+  opacity: 1;
+  visibility: visible;
+}
