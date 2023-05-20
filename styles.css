@@ -5,6 +5,7 @@
 .action-menu div:hover {
   background: #ddd;
 }
+
 .underline-hoverable::after {
   content: "";
   position: absolute;
@@ -68,4 +69,13 @@
   opacity: 0;
   visibility: hidden;
   transition: .05s ease;
+}
+
+.p-xy {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.mind:hover {
+  background: red;
 }
