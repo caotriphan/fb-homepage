@@ -14,7 +14,10 @@
   height: 3px;
   left: 0;
 }
-
+.hoverable .underline-hoverable::after {
+  top: unset;
+  bottom: 0;
+}
 .underline-hoverable:hover::after {
   background: blue;
 }
@@ -40,6 +43,7 @@
 
 .btn-see-more {
   width: 32px;
+  height: 32px;
   aspect-ratio: 1/1;
 }
 
@@ -51,4 +55,17 @@
 
 .flex-fill {
   flex: 1 !important;
+}
+
+.hoverable:hover div {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hoverable div {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: .05s ease;
 }
