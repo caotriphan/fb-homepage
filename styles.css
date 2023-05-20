@@ -27,6 +27,13 @@
   opacity: 0;
   visibility: hidden;
 }
+.scale {
+  transition: .2s ease;
+}
+
+a:hover .scale {
+  transform: scale(1.01, 1.01);
+}
 
 .hover-visible:hover .hover-visible-item {
   opacity: 1;
