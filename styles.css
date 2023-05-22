@@ -83,6 +83,10 @@ a:hover .scale {
   padding-right: 5rem;
 }
 
-.mind:hover {
-  background: red;
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-3 {
+  grid-template-columns: 1fr 1fr 1fr;
 }
